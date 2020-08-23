@@ -99,13 +99,14 @@ items表：
 > 
 - SpringBoot2.x
 - spring-boot-starter-data-jpa
-- MySQL（示例为本地单机）
-- Zookeeper（示例为本地单机）
+- MySQL 5.7.29（示例为本地单机）
+- Zookeeper 3.6.1（示例为本地单机）
 
 
 ### 五、 测试方法
 
 浏览器打开两个个tab页，分别同时并发进行请求，模拟高并发场景下，使用zk分布式锁解决线程的并发问题：
 
-> http://localhost:8081/pay/buy1?itemId=1
-http://localhost:8081/pay/buy2?itemId=1
+> 
+- http://localhost:8081/pay/buy1?itemId=1
+- http://localhost:8081/pay/buy2?itemId=1
