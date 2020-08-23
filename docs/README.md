@@ -72,7 +72,7 @@ INSERT INTO `orders` VALUES ('0f36a090-9ad0-4060-9e4d-347ded7a6ebd', '1');
 
 
 
-3.1.2 建表scripts
+3.1.2 表数据样例
 
 订单表：
 ```
