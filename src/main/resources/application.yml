@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /pay
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/interview?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    open-in-view: true
